@@ -1,0 +1,30 @@
+.center-cropped {
+  object-fit: none; /* Do not scale the image */
+  object-position: 25% 50%; /* Center the image within the element */
+  height: 300px;
+  width: 300px;
+}
+
+.parent {
+  display: flex;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.child {
+  flex: 1;
+  margin: 10px;
+}
+
+.child06 {
+  flex: 0.6;
+  margin: 10px;
+}
+
+.child04 {
+  flex: 0.4;
+  margin: 10px;
+}
+
+
+

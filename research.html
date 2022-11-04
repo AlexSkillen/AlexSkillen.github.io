@@ -14,7 +14,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <link href='centre_crop.css' rel='stylesheet'>
+  <link href='style.css' rel='stylesheet'>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -53,19 +53,20 @@
 	  </div>
 	</nav>
  
- 
+
+
     <div class="container">
  
         <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Ongoing projects</b></div><br>
         
         <!--First project -->
-        <div style="margin-top:3%"; class="row">
-            <div class="col-md-6">
+        <div style="margin-top:3%"; class="parent">
+            <div class="child">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 18px;"><b>Generative methods in Machine Learning for subgrid turbulence closure.</b></div><br>
                 Deep generative methods (e.g. GANs) allow a super-resolution upsampling of coarse CFD to achieve high-fidelity results at lower computational cost. We're developing novel physics-informed generative methods for subgrid turbulence closure.<br><br>
                 <b> Key people: <a href="https://uk.linkedin.com/in/mohammed-sardar">Mohammed Sardar</a></b> (PhD student, 2021-2025)
             </div>
-            <div class="col-md-4">
+            <div class="child">
                 <img class="center-cropped" src="T.png" alt=""><br>
             </div>
         </div>
@@ -73,41 +74,41 @@
 
 
         <!--second project -->
-        <div style="margin-top:3%"; class="row">
-            <div class="col-md-6">
+        <div style="margin-top:3%"; class="parent">
+            <div class="child">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 18px;"><b>Multi-fidelity modelling.</b></div><br>
                 Nested multi-fidelity models provide a data-fusion between low and high fidelity data. When exploring parameter space, it is typically impractical to use high-fidelity methods alone (due to their high cost). Multi-fidelity methods use machine learning to learn the mapping between low and high-fidelity methods to provide accurate yet cost-effective surrogate models.<br><br>
                 <b> Key people: <a href="https://uk.linkedin.com/in/andrew-mole-113142106">Andrew Mole</a></b> (PhD student, 2018-2022, PDRA 2022 - )
                 <br>
                 <b> Key Outputs: <a href="https://doi.org/10.21203/rs.3.rs-2118035/v1">Preprint.</a></b>
             </div>
-            <div class="col-md-4">
+            <div class="child">
                 <img class="img-responsive" src="MFM.png" alt=""><br>
             </div>
         </div>
         <hr style="width:50%">
 
-        <div style="margin-top:3%"; class="row">
-            <div class="col-md-6">
+        <div style="margin-top:3%"; class="parent">
+            <div class="child">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 18px;"><b>Deep learning in fusion thermal hydraulics.</b></div><br>
                 A significant challenge in nuclear fusion tokamak reactor design is the high heat loading of the plasma-facing components (the blanket and divertor). High energy neutrons bombard these components, creating a non-uniform volumetric heat loading. Circulating lithium-lead eutectic is subject to radiative heating, magnetohydrodynamic (MHD) effects, buoyancy and turbulence. We're incorporating MHD into <a href="https://www.incompact3d.com/">Xcompact3D</a> for direct numerical simulation (DNS) database generation and subsequent physics-informed data-driven subgrid closure of complex MHD flows.<br><br> 
                 <b> Key people: <a href="http://www.linkedin.com/in/jake-ineson-250047180">Jake Ineson</a> </b> (PhD student 2022-2026)<br>
             </div>
-            <div class="col-md-4">
+            <div class="child">
                 <img class="center-cropped" src="#" alt=""><br>
             </div>
         </div>
         <hr style="width:50%">
 
 
-        <div style="margin-top:3%"; class="row">
-            <div class="col-md-6">
+        <div style="margin-top:3%"; class="parent">
+            <div class="child">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 18px;"><b>Code Coupling.</b></div><br>
                 Code coupling allows simple communication between legacy codes to achieve multi-physics or multi-scale capability. We've developed the <a href="https://github.com/MxUI">MUI library</a> to enable effective coupling between codes with minimal effort and maximum performance. <br><br>
                 <b> Key collaborators: Brown University, LBNL, UKRI-STFC and IBM Research</b><br>
                 <b> Website: <a href="https://github.com/MxUI"> MUI </a></b>
             </div>
-            <div class="col-md-4">
+            <div class="child">
                 <img class="center-cropped" src="mui.png" alt=""><br>
             </div>
         </div>
